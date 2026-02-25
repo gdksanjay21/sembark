@@ -1,6 +1,6 @@
 # 🚀 Short URL Service
 
-A Laravel 11 based Short URL Management System with role-based access control, company management, and analytics tracking.
+A Laravel 11 based Short URL Management System with role-based access control.
 
 ---
 
@@ -62,7 +62,7 @@ DB_PASSWORD=your_password
 
 ---
 
-## ✅ 5. Generate Application Key ⭐⭐⭐⭐⭐
+## ✅ 5. Generate Application Key
 
 ```bash
 php artisan key:generate
@@ -71,12 +71,6 @@ php artisan key:generate
 ---
 
 ## ✅ 6. Run Database Migrations
-
-```bash
-php artisan migrate
-```
-
-With seed (if applicable):
 
 ```bash
 php artisan migrate --seed
@@ -137,10 +131,7 @@ http://127.0.0.1:8000
 ✅ Company Management (CRUD)  
 ✅ Admin Invitation System  
 ✅ Short URL Generation  
-✅ Click / Hits Tracking  
-✅ Analytics Dashboard  
-✅ Datatable Pagination  
-✅ Excel Export  
+✅ Click / Hits Tracking
 
 ---
 
@@ -211,21 +202,11 @@ MAIL_FROM_NAME="${APP_NAME}"
 
 ---
 
-# 🚀 Deployment Notes
-
-Recommended Production Setup:
-
-✅ Queue Workers  
-✅ Cache Configurations  
-✅ Optimized Assets  
-✅ HTTPS  
-✅ Proper Mail Provider  
-
 ---
 
 # 👨‍💻 Author
 
-Developed using Laravel 11 Architecture & Repository Pattern.
+Sanjay A. Gadakh
 
 ---
 
