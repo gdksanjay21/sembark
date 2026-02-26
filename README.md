@@ -128,7 +128,8 @@ http://127.0.0.1:8000
 
 # 📊 Features
 
-✅ Company Management
+✅ Company Management   
+
 ✅ Admin Invitation System  
 ✅ Short URL Generation  
 ✅ Click / Hits Tracking
